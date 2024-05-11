@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FirmasChile - TU FIRMA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/224b424510.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="toggle-menu" aria-label="Abrir menu">
+        <label for="toggle-menu" id="toggle-menu-button">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <a href="https://ricofood.github.io/index.html" class="home">
+            <img id="logo" src="img/firmas-logo.png" />
+        </a>
+
+        <ul>
+            <li><a class="active" href="">PRODUCTOS Y SERVICIOS</a></li>
+            <li><a href="">QUIENES SOMOS</a></li>
+            <li><a href="">SOPORTE</a></li>
+            <li><a href="">NOTICIAS</a></li>
+            <li><a href="">CONTACTO</a></li>
+        </ul>
+        <a id="wsp-icon" href="https://wa.me/56974851454" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+
+    </nav>
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide">
+                <img src="img/imagen1.jpg" alt="Imagen 1">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <p class="highlighted-text" style="margin-top: 60px; margin-left: 40px; width: 360px; text-align: center;">CONFIANZA DIGITAL</p>
+                    <p class="slide-text" style=" width: 400px; text-align: center; float: right; margin-right: 25px; margin-top: -150px; font-size: 27pt;">LA SEGURIDAD DE LA INFORMACIÓN, TU TRANQUILIDAD.</p>
+                    <button style="width: 250px; height: 75px; background: linear-gradient(349deg, #82c72c 0%, #d8f15d 61%); font-family: nunito, sans-serif; color: #004d01; font-weight: bold; font-size: 18pt; -webkit-text-stroke: #808080 1px; border: outset 2px; border-radius: 15px; margin-left: 97px; margin-top: 117px; ">COMPRAR FIRMA</button>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="img/imagen2.jpg" alt="Imagen 2"><div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <p class="slide-text">Tu texto u otros elementos aquí</p>
+                </div>
+            </div>
+        <div class="slide">
+            <img src="img/imagen3.jpg" alt="Imagen 3"><div class="slide-overlay"></div>
+            <div class="slide-content">
+                <p class="slide-text">Tu texto u otros elementos aquí</p>
+            </div>
+        </div>
+        </div>
+        <div class="prev" onclick="prevSlide()"></div>
+        <div class="next" onclick="nextSlide()"></div>
+        <div class="navigation">
+            <span class="dot" onclick="showSlide(0)"></span>
+            <span class="dot" onclick="showSlide(1)"></span>
+            <span class="dot" onclick="showSlide(2)"></span>
+        </div>
+
+    </div>
+
+    <script src="scripts/index.js"></script>
+</body>
+</html>
